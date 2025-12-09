@@ -1,0 +1,132 @@
+
+.book-detail-page {
+  padding: 100px;
+  background-color: #f4f7fc;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-back {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 18px; 
+  font-weight: 600; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+.btn-back:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.book-detail-card {
+  display: flex;
+  background: white;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.book-detail-img {
+  flex: 1;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.book-detail-img img {
+  max-width: 100%;
+  max-height: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.book-detail-info {
+  flex: 2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.detail-title {
+  font-size: 40px; 
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 800; 
+}
+.detail-author {
+  font-size: 20px; 
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.detail-author span {
+  font-weight: 700; 
+  color: #333;
+}
+.detail-category {
+  display: inline-block;
+  background-color: #eef2ff;
+  color: #4f46e5;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 16px; 
+  font-weight: 600;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+.detail-desc h4 {
+  font-size: 20px; 
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: 700;
+}
+.detail-desc p {
+  font-size: 17px; 
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.detail-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+}
+/* Nút Đọc */
+.btn-read {
+  padding: 14px 35px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px; 
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-read:hover {
+  background-color: #3730a3;
+}
+.btn-favorite {
+  padding: 14px 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px; 
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-favorite:hover {
+  background-color: #fff0f5;
+  border-color: #ff69b4;
+  color: #ff69b4;
+}
+
